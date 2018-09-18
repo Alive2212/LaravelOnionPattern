@@ -1,0 +1,41 @@
+{
+    "name": "alive2212/laravelonionpattern",
+    "description": ":description",
+    "license": "license",
+    "authors": [
+        {
+            "name": "author name",
+            "email": "author email",
+            "homepage": "author homepage"
+        }
+    ],
+    "homepage": "https://github.com/alive2212/laravelonionpattern",
+    "keywords": ["Laravel", "LaravelOnionPattern"],
+    "require": {
+        "illuminate/support": "~5"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~6.0",
+        "orchestra/testbench": "~3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Alive2212\\LaravelOnionPattern\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Alive2212\\LaravelOnionPattern\\Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Alive2212\\LaravelOnionPattern\\LaravelOnionPatternServiceProvider"
+            ],
+            "aliases": {
+                "LaravelOnionPattern": "Alive2212\\LaravelOnionPattern\\Facades\\LaravelOnionPattern"
+            }
+        }
+    }
+}
