@@ -1,6 +1,6 @@
 {
     "name": "alive2212/laravel-onion-pattern",
-    "description": ":description",
+    "description": "This is a pattern for implementation like onion",
     "license": "MIT",
     "authors": [
         {
