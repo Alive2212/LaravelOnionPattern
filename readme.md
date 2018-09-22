@@ -12,7 +12,7 @@ This is Laravel Onion Pattern
 Via Composer
 
 ``` bash
-$ composer require alive2212/laravelonionpattern
+$ composer require alive2212/laravel-onion-pattern
 ```
 
 ## Usage
