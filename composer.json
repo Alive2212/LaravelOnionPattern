@@ -1,12 +1,12 @@
 {
-    "name": "alive2212/laravelonionpattern",
+    "name": "alive2212/laravel-onion-pattern",
     "description": ":description",
-    "license": "license",
+    "license": "MIT",
     "authors": [
         {
-            "name": "author name",
-            "email": "author email",
-            "homepage": "author homepage"
+            "name": "Babak Nodoust",
+            "email": "alive2212@yahoo.com",
+            "homepage": "http://babakn.com"
         }
     ],
     "homepage": "https://github.com/alive2212/laravelonionpattern",
